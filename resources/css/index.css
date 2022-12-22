@@ -101,7 +101,7 @@ body {
 }
 
 .header {
-    background-image: url('images/portfolio.jpg');
+    background-image: url('../images/portfolio.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -149,35 +149,35 @@ form {
 }
 
 #aboutme {
-	background-image: url('images/extra1.jpg');
+	background-image: url('../images/extra1.jpg');
 	background-size: cover;
     background-position: center;
     position: relative;
 }
 
 #mywork {
-	background-image: url('images/extra2.jpg');
+	background-image: url('../images/extra2.jpg');
 	background-size: cover;
     background-position: center;
     position: relative;
 }
 
 #resume {
-	background-image: url('images/resume.jpg');
+	background-image: url('../images/resume.jpg');
 	background-size: cover;
     background-position: center;
     position: relative;
 }
 
 #packages {
-	background-image: url('images/packages.jpg');
+	background-image: url('../images/packages.jpg');
 	background-size: cover;
     background-position: center;
     position: relative;
 }
 
 #contactme {
-	background-image: url('images/extra3.jpg');
+	background-image: url('../images/extra3.jpg');
 	background-size: cover;
     background-position: center;
     position: relative;
