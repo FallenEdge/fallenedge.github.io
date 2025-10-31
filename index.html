@@ -1,306 +1,277 @@
-
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="en">
-	
-	<head>
-		
-<!-- Sizing differences for various devices	-->
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-<!-- Stylesheets containing applicable CSS linked -->
-		<link rel="stylesheet" href="resources/bootstrap-4.3.1-dist/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="resources/css/index.css">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+  <meta name="description" content="Portfolio of [Your Name] — web developer, designer, projects and contact." />
+  <title>[Your Name] — Portfolio</title>
 
-<!-- Browser tab displayed title -->
-		<title>SecuraDev</title>
-		
-	</head>
+  <!-- Bootstrap (local) -->
+  <link rel="stylesheet" href="resources/bootstrap-4.3.1-dist/css/bootstrap.min.css">
 
-	<body>
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="resources/css/index.css">
 
-<!-- JavaScript files linked for the responsiveness -->
-		<script src="resources/jQuery/jquery-3.6.3.min.js"></script>
-		
-		<script src="resources/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Favicon (optional) -->
+  <link rel="icon" href="resources/css/images/logo.png" />
+  
+  <style>
+    /* Small inline helper styles — move into index.css if preferred */
+    .hero {
+      min-height: 60vh;
+      display:flex;
+      align-items:center;
+      background: url('resources/css/images/header-background.jpg') center/cover no-repeat;
+      color:#fff;
+      position:relative;
+    }
+    .hero::after {
+      content:"";
+      position:absolute; inset:0; background: rgba(0,0,0,0.45);
+    }
+    .hero .container { position:relative; z-index:1; }
+    .project-card img { object-fit:cover; height:180px; }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light bg-white border-bottom" aria-label="Main navigation">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#home">
+          <img src="resources/css/images/logo.png" alt="[Your Name] logo" width="40" height="40" class="mr-2">
+          <span class="font-weight-bold">[Your Name]</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav"
+                aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-<!-- HTML for opening transition -->
-		<div class="intro">
-			<h1 class="logo-header">
-				<span class="logo">Secura</span><span class="logo">&nbsp;Development</span>		
-			</h1>	
-		</div>
-	
-<!-- Controls responsivness for opening transition	-->
-		<script src="resources/javascript/intro.js"></script>
-	
-	
-<!-- Header section containing navigation bar -->
-		<header class="page-header header container-fluid">
-		
-			<nav class="navbar navbar-expand-md navbar-dark shadow-5-strong">
-			<a class="navbar-brand" href="#">
-				<img src="resources/images/logo.png" class="img-fluid" alt="logo">
-			</a>
-			<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse"	data-target="#main-navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-				
-			<div class="collapse navbar-collapse" id="main-navigation">
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a class="nav-link" href="#aboutme">About Me</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#mywork">My Work</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#resume">Resume</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#packages">Packages</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#contactme">Contact Me</a>
-					</li>
-				</ul>
-			</div>
-				
-			</nav>
-		
-		</header>
-	
-		<main>
-			
-<!-- Section Containing Opening Welcome Message -->
-			<section name="welcome">
-			<div class="overlay">
-				<div class="description">
-					<h1>Welcome to Secura Development!</h1>
-					<br>
-					<a class="btn btn-outline-secondary btn-lg" href="#aboutme">Let's Begin</a>
-				</div>
-			</div>
-			</section>
-			
-<!-- Section Containing "About Me" -->
-		<section name="aboutme">
-		<div id="aboutme">
-		<div class="container features">
-			<br>
-			<br>
-			<h1 class="feature-title" style="text-align: center;">Meet the Face Behind the Project</h1>
-			<br>
-			<br>
-			<div style="text-align: center;">
-				<img src="resources/images/IMG-0162.JPG" alt="Professional Headshot" style="width:250px;height:300px;">
-				<br>
-				<br>
-				<h3 class="feature-title">Celine Tannous</h3>
-				<p>Hello! My name is Celine Tannous and I am a freelance Web Developer. My credentials include a Bachelor of Science in Cyber Operations from the U.S. Naval Academy. I specialize in several programming languages including: HTML, CSS, Bootstrap, JavaScript, Python, and C++. Please feel free to take a look around this webpage and check out some of my skills!</p>
-				<br>
-				<a class="btn btn-outline-secondary btn-lg" href="#mywork">Take a Look at My Work</a>
-				<br>
-				<br>
-				<br>
-				<br>
-			</div>
-	    </div>
-	    </div>
-		</section>
-		
-<!-- Section Containing "My Work" -->
-		<section name="mywork">
-		<div id="mywork" style="background-color: black;">
-			<div class="container features">
-				<br>
-				<br>
-				<h1 class="feature-title" style="text-align: center; color: aliceblue;">My Past Work</h1>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<div class="alert alert-primary" role="alert">
-		<h3 style="text-align: center;">This portion of the page is Coming Soon</h3>
-				</div>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-			</div>
-		</div>
-		</section>
-			
-<!-- Section Containing Link to my "Resume" -->
-		<section name="resume" id="resume" class="container features">
-			<br>
-			<br>
-		  <h1 class="feature-title" style="text-align: center;">Resume</h1>
-			<br>
-			<br>
-			
-			<div class="alert alert-primary" role="alert">
-				<h3 style="text-align: center;">This portion of the page is Coming Soon</h3>
-			</div>
-			<br>
-			<br>
-		</section>
-			
-<!-- Section Containing "Package Options" and Offerings -->
-			<section name="packages" id="packages" class="container features">
-				<br>
-				<br>
-				<h1 class="feature-title" style="text-align: center;">Packages</h1>
-				<br>
-				<br>
-				
-				<div class="alert alert-primary" role="alert">
-					<h3 style="text-align: center;">This portion of the page is Coming Soon</h3>
-				</div>
-				<br>
-				<br>
-			</section>
-	
-<!--
-	<div id="mywork" style="background-color: black;">
-		<div class="container features">
-			<br>
-			<br>
-			<h1 class="feature-title" style="text-align: center; color: aliceblue;">My Past Work</h1>
-			<br>
-			<br>
-			<br>
-			<br>
-			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  				<div class="carousel-inner">
-    				<div class="carousel-item active">
-      					<img class="d-block w-100" src="..." alt="Coming Soon">
-    				</div>
-    			<div class="carousel-item">
-      				<img class="d-block w-100" src="..." alt="Coming Soon">
-    			</div>
-    		<div class="carousel-item">
-      			<img class="d-block w-100" src="..." alt="Coming Soon">
-    		</div>
-  				</div>
-		  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			<span class="sr-only">Previous</span>
-		  </a>
-		  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-			<span class="sr-only">Next</span>
-		  </a>
-		</div>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-		</div>
-	</div>
--->
-	
-<!--
-	<div id="mission">
-		<div class="container features">
-			<br>
-			<br>
-			<h1 class="feature-title" style="text-align: center;">Our Mission</h1>	
-		</div>
-	</div>
--->
-			
-<!-- Section Containing "Contact Me" -->
-		<section name="contactme" id="contactme">
-			<br>
-			<br>
-			<h1 class="feature-title" style="text-align: center;">Contact Me</h1>
-			<br>
-			<br>
-			<br>
-			<br>
-			<form action="requests.txt" method="GET">
-				<label for="name">Enter your Name: </label>
-				<input type="text" name="name" id="name" required>
-				<br>
-				
-				<label for="email">Enter your Email: </label>
-				<input type="text" name="email" id="email" required>
-				<br>
-				
-				<label for="message">Message: </label>
-				<textarea type="text" name="message" id="message" required>Reach out to me!</textarea>
-				<br>
-				
-				<input type="submit" value="Contact Me">
-				
-			</form>
-			<br>
-			<br>
-			<br>
-		</section>
-			
-		</main>
-	
-<!-- Footer for Page, Contains Additional Information -->
-		<footer class="page-footer">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8 col-md-8 col-sm-12">
-						<h6 class="text-uppercase font-weight-bold">Additional Information</h6>
-						<p> Lorem ipsum dolor sit amet.</p>
-						<p> Lorem ipsum dolor sit amet.</p>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-12">
-						<h6 class="text-uppercase font-weight-bold">Contact Me</h6>
-						<p>celinetannous@securadev.com
-						<br/>(720)318-3311</p>
-					</div>
-				</div>
-			</div>
-			
-			<div class="footer-copyright text-center">© 2022 Copyright: SecuraDev.com</div>
-			
-			
-		</footer>
-	
-	<script src="resources/javascript/index.js"></script>
-		
-	</body>
-	
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            <li class="nav-item ml-2"><a class="btn btn-outline-primary" href="resources/css/images/resume.jpg" target="_blank" rel="noopener">Resume</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="home" class="hero d-flex align-items-center" role="region" aria-label="Intro">
+      <div class="container text-center text-md-left">
+        <div class="row">
+          <div class="col-md-7">
+            <h1 class="display-4">Hi, I'm [Your Name]</h1>
+            <p class="lead">Web developer & designer. I build accessible, performant, and delightful web experiences.</p>
+            <p>
+              <a class="btn btn-primary btn-lg mr-2" href="#projects">View work</a>
+              <a class="btn btn-outline-light btn-lg" href="#contact">Get in touch</a>
+            </p>
+          </div>
+          <div class="col-md-5 d-none d-md-block">
+            <img src="resources/css/images/Display Image 1.png" alt="[Your portrait]" class="img-fluid rounded shadow">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="py-5" role="region" aria-label="About me">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-4 text-center">
+            <img src="resources/css/images/aboutme.jpg" alt="Photo of [Your Name]" class="img-fluid rounded mb-3">
+          </div>
+          <div class="col-md-8">
+            <h2>About me</h2>
+            <p>Short paragraph summarizing who you are, what you do, and what tools you enjoy. Keep it concise (< 120 words).</p>
+            <ul>
+              <li>Location — e.g., Remote / City, Country</li>
+              <li>Available for freelance or full-time</li>
+              <li>Favorite stack: HTML, CSS, JS, React, Node (example)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="py-5 bg-light" role="region" aria-label="Projects">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+          <h2 class="mb-0">Projects</h2>
+          <p class="mb-0 text-muted">Selected work — click to view details</p>
+        </div>
+
+        <div class="row">
+          <!-- Project card example -->
+          <div class="col-md-4 mb-4">
+            <article class="card project-card h-100" aria-labelledby="proj1-title">
+              <img src="resources/css/images/portfolio.jpg" class="card-img-top" alt="Screenshot of Project One">
+              <div class="card-body d-flex flex-column">
+                <h3 id="proj1-title" class="h5 card-title">Project One</h3>
+                <p class="card-text text-muted">Short description (1–2 lines) describing goal and tech used.</p>
+                <div class="mt-auto">
+                  <a class="btn btn-outline-primary btn-sm mr-2" href="#" target="_blank" rel="noopener">Live</a>
+                  <a class="btn btn-outline-secondary btn-sm" href="#" target="_blank" rel="noopener">Source</a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Duplicate/replace cards for other projects -->
+          <div class="col-md-4 mb-4">
+            <article class="card h-100 project-card" aria-labelledby="proj2-title">
+              <img src="resources/css/images/mywork.jpg" class="card-img-top" alt="Screenshot of Project Two">
+              <div class="card-body d-flex flex-column">
+                <h3 id="proj2-title" class="h5 card-title">Project Two</h3>
+                <p class="card-text text-muted">Brief description and the impact.</p>
+                <div class="mt-auto">
+                  <a class="btn btn-outline-primary btn-sm mr-2" href="#" target="_blank" rel="noopener">Live</a>
+                  <a class="btn btn-outline-secondary btn-sm" href="#" target="_blank" rel="noopener">Source</a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <article class="card h-100 project-card" aria-labelledby="proj3-title">
+              <img src="resources/css/images/packages.jpg" class="card-img-top" alt="Screenshot of Project Three">
+              <div class="card-body d-flex flex-column">
+                <h3 id="proj3-title" class="h5 card-title">Project Three</h3>
+                <p class="card-text text-muted">Short explanatory sentence about the project.</p>
+                <div class="mt-auto">
+                  <a class="btn btn-outline-primary btn-sm mr-2" href="#" target="_blank" rel="noopener">Live</a>
+                  <a class="btn btn-outline-secondary btn-sm" href="#" target="_blank" rel="noopener">Source</a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="py-5" role="region" aria-label="Skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <p class="text-muted">A concise list or progress bars for your main skills.</p>
+        <div class="row">
+          <div class="col-sm-6 col-md-3 mb-3">
+            <div class="border rounded p-3 h-100 text-center">
+              <strong>HTML/CSS</strong>
+              <div class="text-muted small">Semantic HTML, responsive CSS</div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 mb-3">
+            <div class="border rounded p-3 h-100 text-center">
+              <strong>JavaScript</strong>
+              <div class="text-muted small">ES6+, DOM, async</div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 mb-3">
+            <div class="border rounded p-3 h-100 text-center">
+              <strong>React</strong>
+              <div class="text-muted small">SPA, hooks, performance</div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 mb-3">
+            <div class="border rounded p-3 h-100 text-center">
+              <strong>Design</strong>
+              <div class="text-muted small">Figma, prototyping, UX</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-5 bg-light" role="region" aria-label="Contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p class="text-muted">I'd love to hear about your project or opportunity.</p>
+
+        <div class="row">
+          <div class="col-md-7">
+            <!-- Replace action with a backend or form provider (Netlify Forms, Formspree) in production -->
+            <form aria-label="Contact form" method="post" action="mailto:your@email.example" 
+                  onsubmit="alert('This is a demo. Replace with a real form handler.'); return false;">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="name">Name</label>
+                  <input id="name" name="name" class="form-control" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="email">Email</label>
+                  <input id="email" type="email" name="email" class="form-control" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
+              </div>
+
+              <div class="form-group">
+                <button class="btn btn-primary" type="submit">Send message</button>
+                <small class="form-text text-muted d-inline ml-2">Or email me at <a href="mailto:your@email.example">email</a></small>
+              </div>
+            </form>
+          </div>
+
+          <aside class="col-md-5">
+            <div class="border rounded p-3 mb-3">
+              <h3 class="h6">Contact info</h3>
+              <p class="mb-1">Location: City, Country</p>
+              <p class="mb-1">Email: <a href="mailto:your@email.example">your@email.example</a></p>
+              <p class="mb-1">Phone: +1 (555) 555-5555 (optional)</p>
+            </div>
+
+            <div class="border rounded p-3">
+              <h3 class="h6">Social</h3>
+              <p class="mb-0">
+                <a href="#" class="mr-2">GitHub</a>
+                <a href="#" class="mr-2">LinkedIn</a>
+                <a href="#">Twitter</a>
+              </p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="py-4 bg-white border-top">
+    <div class="container text-center">
+      <small class="text-muted">© <span id="year"></span> [Your Name]. Built with Bootstrap.</small>
+    </div>
+  </footer>
+
+  <!-- jQuery (local) -->
+  <script src="resources/JQuery/jquery-3.6.3.min.js"></script>
+
+  <!-- Bootstrap JS (local) -->
+  <script src="resources/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="resources/javascript/index.js"></script>
+
+  <script>
+    // small helper
+    document.getElementById('year').textContent = new Date().getFullYear();
+    // Smooth scroll for nav anchor links (improves UX)
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click', function(e){
+        const target = document.querySelector(this.getAttribute('href'));
+        if(target){ e.preventDefault(); target.scrollIntoView({behavior:'smooth', block:'start'}); }
+      });
+    });
+  </script>
+</body>
 </html>
