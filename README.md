@@ -1,20 +1,21 @@
-# SecuraDev
+# Celine Tannous Portfolio Website
 
 Date Created: 12Aug22
-Last Updated: 12Aug22
+Last Updated: 31Oct25
 
 File Directory Structure:
 -Home
-  -Mission
+  -Introduction (About Me)
+  -Certifications
   -Portfolio
-  -About Me
+  -Resume
   -Contact Me
   
 Project Statement:
-This repository is the home to all code (html, javascript, css, and bootstrap) that belongs to the design of the SecuraDev Website. This project is the intellectual property of the creator under the GitHub alias of FallenEdge also known as the founder of the personal professional project SecuraDev. The mission of SecuraDev is to provide a great product with great service. The project's main focus is web development with a secondary mission of providing web security services. 
+This repository is the home to all code (html, javascript, css, and bootstrap) that belongs to the design of my personal portfolio website. This project is the intellectual property of the creator under the GitHub alias of FallenEdge also known as Celine Tannous to include any code posted or presented on the website. The intended purpose of this website is to provide a basic introduction of myself and display technical applications of my cyber security related skills for future employers.
 
 Contact Information:
-If you wish to get in contact with the owner of this project, please send them an email at celinetannous@securadev.com with any concerns or inquiries. 
+If you wish to get in contact with the owner of this project, please send them an email at celinetannous2021@gmail.com with any concerns or inquiries. 
 
 
 
